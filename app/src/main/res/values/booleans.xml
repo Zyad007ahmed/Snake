@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="arrows_control">true</bool>
+    <bool name="swipe_control">false</bool>
+</resources>

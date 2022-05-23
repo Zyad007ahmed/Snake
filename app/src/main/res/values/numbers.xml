@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="easy_delay">300</integer>
+    <integer name="medium_delay">200</integer>
+    <integer name="hard_delay">125</integer>
+
+    <integer name="bound_state">0</integer>
+    <integer name="continous_state">1</integer>
+    <integer name="no_die_state">2</integer>
+</resources>
