@@ -46,52 +46,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-//        Button easy = (Button) findViewById(R.id.easy);
-//        Button medium = (Button) findViewById(R.id.medium);
-//        Button hard = (Button) findViewById(R.id.hard);
-//        easy.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                ((Button)v).setBackgroundColor(ContextCompat.getColor(MainActivity.this,R.color.teal_200));
-//                medium.setBackgroundColor(ContextCompat.getColor(MainActivity.this,android.R.color.transparent));
-//                hard.setBackgroundColor(ContextCompat.getColor(MainActivity.this,android.R.color.transparent));
-//                editor.putInt("delay",getResources().getInteger(R.integer.easy_delay));
-//                editor.apply();
-//            }
-//        });
-//        medium.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                ((Button)v).setBackgroundColor(ContextCompat.getColor(MainActivity.this,R.color.teal_700));
-//                easy.setBackgroundColor(ContextCompat.getColor(MainActivity.this,android.R.color.transparent));
-//                hard.setBackgroundColor(ContextCompat.getColor(MainActivity.this,android.R.color.transparent));
-//                editor.putInt("delay",getResources().getInteger(R.integer.medium_delay));
-//                editor.apply();
-//            }
-//        });
-//        hard.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                ((Button)v).setBackgroundColor(ContextCompat.getColor(MainActivity.this,R.color.teal_700));
-//                medium.setBackgroundColor(ContextCompat.getColor(MainActivity.this,android.R.color.transparent));
-//                easy.setBackgroundColor(ContextCompat.getColor(MainActivity.this,android.R.color.transparent));
-//                editor.putInt("delay",getResources().getInteger(R.integer.hard_delay));
-//                editor.apply();
-//            }
-//        });
-//        switch ((sp.getInt("delay",getResources().getInteger(R.integer.medium_delay)))){
-//            case 300:
-//                easy.setBackgroundColor(ContextCompat.getColor(MainActivity.this,R.color.teal_700));
-//                break;
-//            case 200:
-//                medium.setBackgroundColor(ContextCompat.getColor(MainActivity.this,R.color.teal_700));
-//                break;
-//            case 125:
-//                hard.setBackgroundColor(ContextCompat.getColor(MainActivity.this,R.color.teal_700));
-//                break;
-//
-//        }
-
         TextView diff_level = findViewById(R.id.diff_level);
         SeekBar level_bar = findViewById(R.id.level_bar);
         int diff_progress = ((sp.getInt("delay", 200) - 400) / -30);
