@@ -11,7 +11,8 @@
         android:theme="@style/Theme.Snake">
         <activity android:name=".settingActivity"
             android:label="Settings"/>
-        <activity android:name=".game" />
+        <activity android:name=".game"
+            android:screenOrientation="portrait"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -297,8 +297,6 @@ public class game extends AppCompatActivity {
 
                     h2.postDelayed(r2, delay);
 
-                    bounds();
-
                     switch (nextDir) {
                         case RIGHT:
                             if (curDir == DOWN)
@@ -329,6 +327,8 @@ public class game extends AppCompatActivity {
                             newNode(headX, headY + 1, DOWN);
                             break;
                     }
+
+                    bounds();
 
                     // if he didn't eat delete last node
                     if (!didEat()) {
@@ -375,8 +375,6 @@ public class game extends AppCompatActivity {
 
                     h2.postDelayed(r2, delay);
 
-                    bounds();
-
                     switch (nextDir) {
                         case RIGHT:
                             if (curDir == DOWN)
@@ -407,6 +405,8 @@ public class game extends AppCompatActivity {
                             newNode(headX, headY + 1, DOWN);
                             break;
                     }
+
+                    bounds();
 
                     // if he didn't eat delete last node
                     if (!didEat()) {
